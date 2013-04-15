@@ -5,7 +5,7 @@ zookeeper distributed lock
 
 A distributed lock implements with zookeeper.
 
-The lock implement this in a very simplements way.
+The lock implement this in a very simple way.
 
 if multi clients wants to change the particular znode say "/root/configuration", the all clients must write a temporary
 
@@ -20,9 +20,11 @@ if there are 3 clients want get the lock of "/root/configuration"
 
 the 3 clients well create 3 temp Znode say they are :
 
-broada.lock_0000000014 for client one
-broada.lock_0000000016 for client two
-broada.lock_0000000015 for client three
+broada.lock_0000000014 for client one;
+
+broada.lock_0000000016 for client two;
+
+broada.lock_0000000015 for client three;
 
 the client one with get the lock (because the num of the temp Znode is the smallest mean that client one is the first
 try to get the lock).
