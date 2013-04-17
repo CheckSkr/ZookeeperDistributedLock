@@ -32,3 +32,5 @@ try to get the lock).
 when client one released the lock the client three will obtain the lock.
 
 pretty simple isn‘t it！！！
+
+the Configuration center used by zookeepr will fininshed in May.
