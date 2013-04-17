@@ -34,5 +34,7 @@ when client one released the lock the client three will obtain the lock.
 pretty simple isn‘t it！！！
 
 the next work:
+
 1. the Configuration center used by zookeepr will fininshed in May.
+
 2. the JUC will be finish in June,actually it was implemented by OpenUitility：https://github.com/qhwj2006/menagerie
